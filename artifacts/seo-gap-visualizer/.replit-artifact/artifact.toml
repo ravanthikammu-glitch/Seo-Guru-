@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SEO Gap Visualizer"
+version = "1.0.0"
+id = "artifacts/seo-gap-visualizer"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18929
+
+[services.development]
+run = "pnpm --filter @workspace/seo-gap-visualizer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/seo-gap-visualizer", "run", "build" ]
+publicDir = "artifacts/seo-gap-visualizer/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18929"
+BASE_PATH = "/"

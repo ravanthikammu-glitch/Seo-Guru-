@@ -1,0 +1,381 @@
+Build a modern SaaS-style web application called SEO Gap Visualizer.
+
+Project Overview
+
+SEO Gap Visualizer helps SEO professionals compare their website against competitor websites to discover content gaps, keyword opportunities, and topic clusters.
+
+The application should look like a professional SEO tool similar to Ahrefs, Semrush, or Surfer SEO.
+
+Use a modern UI with:
+
+Clean dashboard design
+Dark/light mode toggle
+Responsive layout
+Professional charts
+Cards and analytics widgets
+Sidebar navigation
+Modern typography
+SEO-themed color palette (blue, purple, white)
+Pages Required
+1. Landing Page
+
+Purpose:
+Explain the product and encourage users to start analyzing.
+
+Sections:
+
+Hero Section
+
+Title:
+"Discover Content Opportunities Your Competitors Already Rank For"
+
+Subtitle:
+"Analyze competitor websites, uncover content gaps, and build a smarter SEO strategy."
+
+Buttons:
+
+Start Analysis
+View Demo
+Features Section
+
+Cards:
+
+Content Gap Analysis
+Topic Cluster Mapping
+Keyword Opportunity Discovery
+Competitor Comparison
+SEO Recommendations
+Export Reports
+How It Works
+
+Step 1:
+Enter your website
+
+Step 2:
+Enter competitor website
+
+Step 3:
+Generate insights
+
+Step 4:
+Create content strategy
+
+Demo Screenshot Section
+
+Show a dashboard mockup image.
+
+Testimonials Section
+
+Use sample testimonials.
+
+Pricing Section
+
+Free Plan
+Pro Plan
+Agency Plan
+
+Footer
+
+Links:
+
+Home
+Features
+Dashboard
+Contact
+2. Dashboard Page
+
+Professional SEO analytics dashboard.
+
+Layout:
+
+Sidebar Navigation
+
+Menu Items:
+
+Dashboard
+Competitor Analysis
+Content Gaps
+Topic Map
+Opportunities
+Reports
+Settings
+Dashboard Widgets
+
+Top Stats Row
+
+Card 1:
+Missing Topics
+
+Card 2:
+Keyword Opportunities
+
+Card 3:
+Competitor Articles
+
+Card 4:
+SEO Score
+
+Use animated counters.
+
+Website Comparison Form
+
+Fields:
+
+Your Website URL
+
+Competitor Website URL
+
+Analyze Button
+
+Example:
+
+mywebsite.com
+
+competitor.com
+
+Analysis Results Section
+
+After clicking Analyze:
+
+Generate mock SEO data.
+
+Display:
+
+Overview
+
+Your Site:
+
+45 Articles
+210 Keywords
+
+Competitor:
+
+87 Articles
+620 Keywords
+Content Gap Table
+
+Columns:
+
+Topic
+
+Competitor Coverage
+
+Your Coverage
+
+Opportunity Score
+
+Priority
+
+Example Data:
+
+Technical SEO
+
+95%
+
+35%
+
+92
+
+High
+
+Schema Markup
+
+90%
+
+20%
+
+95
+
+High
+
+Local SEO
+
+80%
+
+50%
+
+70
+
+Medium
+
+Topic Cluster Visualization
+
+Interactive bubble chart.
+
+Display:
+
+Main SEO Topics
+
+Examples:
+
+SEO
+├── Technical SEO
+├── Link Building
+├── Local SEO
+├── On-Page SEO
+├── Keyword Research
+├── Content Marketing
+
+Use colorful connected nodes.
+
+Keyword Opportunity Section
+
+Table:
+
+Keyword
+
+Search Volume
+
+Difficulty
+
+Competitor Rank
+
+Opportunity Score
+
+Example:
+
+seo audit checklist
+
+1200
+
+32
+
+#3
+
+91
+
+schema markup guide
+
+800
+
+25
+
+#2
+
+88
+
+local seo tips
+
+2500
+
+45
+
+#5
+
+79
+
+AI Recommendations Panel
+
+Generate recommendations such as:
+
+Create a Technical SEO Guide.
+Publish Schema Markup Tutorials.
+Expand Local SEO Content.
+Add Internal Linking Strategy Articles.
+Create SEO Audit Templates.
+
+Display in recommendation cards.
+
+Opportunity Heatmap
+
+Create visual chart showing:
+
+High Opportunity
+
+Medium Opportunity
+
+Low Opportunity
+
+Using green/yellow/red colors.
+
+Reports Page
+
+Generate downloadable SEO reports.
+
+Include:
+
+PDF Export Button
+
+CSV Export Button
+
+Report Preview
+
+Sections:
+
+Executive Summary
+
+Content Gaps
+
+Keyword Opportunities
+
+Recommended Content Plan
+
+Settings Page
+
+Fields:
+
+User Name
+
+Email
+
+Theme Toggle
+
+Default Competitor
+
+Notification Settings
+
+Design Requirements
+
+Use:
+
+React
+Tailwind CSS
+Recharts for graphs
+Lucide icons
+Framer Motion animations
+
+Style:
+
+Professional SaaS dashboard
+
+Rounded cards
+
+Smooth animations
+
+Glassmorphism effects
+
+Shadow effects
+
+Gradient headers
+
+Responsive on mobile and desktop
+
+Mock Data
+
+Do not use APIs initially.
+
+Generate realistic SEO sample data.
+
+Create at least:
+
+50 keywords
+20 content gaps
+10 topic clusters
+5 recommendations
+Bonus Features
+
+Add:
+
+Search functionality
+Filters
+Sortable tables
+Loading animations
+Dashboard notifications
+Export reports
+Dark mode
+Interactive charts
+Goal
+
+The final result should look like a startup-grade SEO SaaS product that could be shown in a college project presentation and appear realistic enough to impress SEO professionals and faculty evaluators. It should feel similar in quality to Ahrefs, Semrush, or Surfer SEO, even if it uses mock data.
+
+Get smarter responses, upload files and images, and more.
