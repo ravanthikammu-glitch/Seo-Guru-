@@ -1,17 +1,19 @@
 import { useState } from "react";
+import React from "react";
 import { Link, useLocation } from "wouter";
 import { useTheme } from "next-themes";
 import {
   LayoutDashboard, BarChart2, FileText, Network,
   Target, Download, Settings, ChevronLeft, ChevronRight,
-  Sun, Moon, Bell, Search, TrendingUp, X,
+  Sun, Moon, Bell, Search, TrendingUp, X, Globe,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 
-const NAV_ITEMS = [
+const NAV_ITEMS: { label: string; icon: React.ElementType; href: string; badge?: string }[] = [
   { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard" },
+  { label: "AI Intelligence", icon: Globe, href: "/intelligence", badge: "New" },
   { label: "Competitor Analysis", icon: BarChart2, href: "/dashboard" },
   { label: "Content Gaps", icon: FileText, href: "/dashboard" },
   { label: "Topic Map", icon: Network, href: "/dashboard" },
@@ -69,7 +71,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                   } ${collapsed ? "justify-center px-2" : ""}`}
                 >
                   <Icon className="w-4 h-4 shrink-0" />
-                  {!collapsed && <span className="text-sm font-medium">{item.label}</span>}
+                  {!collapsed && (
+                    <>
+                      <span className="text-sm font-medium flex-1">{item.label}</span>
+                      {item.badge && (
+                        <Badge className="text-[10px] px-1.5 py-0 h-4 bg-primary/20 text-primary border-primary/30">
+                          {item.badge}
+                        </Badge>
+                      )}
+                    </>
+                  )}
                 </div>
               </Link>
             );

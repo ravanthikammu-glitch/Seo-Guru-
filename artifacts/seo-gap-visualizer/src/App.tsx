@@ -9,6 +9,7 @@ import Landing from "@/pages/landing";
 import Dashboard from "@/pages/dashboard";
 import Reports from "@/pages/reports";
 import Settings from "@/pages/settings";
+import Intelligence from "@/pages/intelligence";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Landing} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/intelligence" component={Intelligence} />
       <Route path="/reports" component={Reports} />
       <Route path="/settings" component={Settings} />
       <Route component={NotFound} />
