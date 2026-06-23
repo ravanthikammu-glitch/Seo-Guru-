@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "d1b7Nr64JRR9ffihJmrnE"
+uri = "file://seo-gap-visualizer.zip"
+type = "unspecified"
+title = "SEO Gap Visualizer — Source Code"
